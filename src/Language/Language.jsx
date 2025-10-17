@@ -3,7 +3,7 @@ import { useLanguage } from "./LanguageContext";
 
 const languages = ["en", "ru"];
 const fonts = {
-  en: "'Roboto', sans-serif",
+  en: "'Noto Sans', sans-serif",
   ru: "'Noto Sans', sans-serif",
 };
 

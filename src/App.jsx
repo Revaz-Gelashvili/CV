@@ -1,10 +1,11 @@
-import Home from "./Pages/Home";
-import Additional from "./Pages/Additional";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./Language/LanguageContext";
+import { ThemeProvider } from "./Theme/ThemeContext";
+import Home from "./Pages/Home";
+import Additional from "./Pages/Additional";
 import Header from "./Components/Header/Header";
 import Menu from "./Components/Header/Menu";
-import { ThemeProvider } from "./Theme/ThemeContext";
 
 export default function App() {
   return (
