@@ -2,11 +2,11 @@ import "./Header.scss";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function Header({ toggleSideBar }) {
   const { t } = useTranslation();
   return (
     <header className="w-full flex justify-center bg-neutral-950 text-white absolute">
-      <nav className="w-full max-w-screen-xl h-25 flex items-center justify-between px-4">
+      <nav className="w-full max-w-screen-2xl h-25 flex items-center justify-between px-4">
         <div className="flex items-center gap-3 font-medium">
           <img
             className="w-[50px] h-[50px]"
@@ -22,10 +22,16 @@ export default function Header() {
           <li>{t("header.link3")}</li>
         </ul>
         <div>
-          <p className="myName text-xl lg:text-2xl font-medium">
+          <p className="myName hidden md:block text-xl lg:text-2xl font-medium">
             Frontend Developer
           </p>
         </div>
+        <img
+          onClick={toggleSideBar}
+          className="w-10 md:hidden"
+          src="Public/svg/menu.svg"
+          alt="menu"
+        />
       </nav>
     </header>
   );
