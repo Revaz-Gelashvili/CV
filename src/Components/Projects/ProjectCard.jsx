@@ -1,22 +1,31 @@
-import "Projects.scss";
+import "./Projects.scss";
 
 export default function ProjectCard({ name, description, url, web }) {
   return (
-    <div>
-      <div
-        style={{
-          backgroundImage: `url(${url})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          height: "320px",
-          width: "420px",
-        }}
-      ></div>
-      <a href={web} target="_blank" rel="noopener noreferrer" className="mt-6">
-        <h1>{name}</h1>
+    <div className="card">
+      <a href={web}>
+        <div
+          className="images"
+          style={{
+            backgroundImage: `url(${url})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            borderRadius: "20px",
+          }}
+        ></div>
       </a>
-      <p className="text-neutral-400 font-medium mt-6">{description}</p>
+      <a
+        href={web}
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" text-4xl font-bold text-white"
+      >
+        <h1 className="mt-5">{name}</h1>
+      </a>
+      <p className="text-neutral-400 font-medium text-2xl mt-6 ">
+        {description}
+      </p>
     </div>
   );
 }

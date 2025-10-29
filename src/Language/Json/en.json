@@ -3,6 +3,37 @@
     "name": "Revaz Gelashvili",
     "link1": "Skills",
     "link2": "Projects",
-    "link3": "Contact"
+    "link3": "Contact",
+    "position": "Frontend Developer"
+  },
+
+  "hero": {
+    "title": "Front-End Developer & UI/UX Designer",
+    "description": "I build beautiful and functional web experiences with a focus on React, TypeScript, and modern UI/UX principles.",
+    "button": "View my work"
+  },
+
+  "projects": {
+    "title": "My Projects",
+    "final-project": {
+      "title": "Final Project",
+      "description": "My final project when I studied"
+    },
+    "find-film": {
+      "title": "Movie Search",
+      "description": "My practice with API"
+    },
+    "currency": {
+      "title": "Currency Exchange",
+      "description": "My pre-designed layout and a well-adaptive website"
+    },
+    "weatherapp": {
+      "title": "Weather App",
+      "description": "Just Weather App"
+    }
+  },
+
+  "skills": {
+    "title": "My Skills"
   }
 }

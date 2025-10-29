@@ -24,7 +24,3 @@ export function LanguageProvider({ children }) {
 export function useLanguage() {
   return useContext(LanguageContext);
 }
-
-// import { useTranslation } from "react-i18next";
-// const { t } = useTranslation();
-// {t("hero.header2")}

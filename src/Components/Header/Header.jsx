@@ -1,5 +1,6 @@
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
+import LanguageBtn from "../../Language/Language.jsx";
 import { Link } from "react-router-dom";
 
 export default function Header({ toggleSideBar }) {
@@ -17,21 +18,31 @@ export default function Header({ toggleSideBar }) {
         </div>
 
         <ul className="lg:text-2xl hidden md:flex gap-15">
-          <li>{t("header.link1")}</li>
-          <li>{t("header.link2")}</li>
-          <li>{t("header.link3")}</li>
+          <a href="#skills">
+            <li>{t("header.link1")}</li>
+          </a>
+          <a href="#projects">
+            <li>{t("header.link2")}</li>
+          </a>
+          <a href="#">
+            <li>{t("header.link3")}</li>
+          </a>
         </ul>
-        <div>
-          <p className="myName hidden md:block text-xl lg:text-2xl font-medium">
-            Frontend Developer
-          </p>
+
+        <div className="flex gap-5">
+          <div>
+            <p className="myName hidden md:block text-xl lg:text-2xl font-medium">
+              {t("header.position")}
+            </p>
+          </div>
+          <LanguageBtn />
+          <img
+            onClick={toggleSideBar}
+            className="w-10 md:hidden"
+            src="Public/svg/menu.svg"
+            alt="menu"
+          />
         </div>
-        <img
-          onClick={toggleSideBar}
-          className="w-10 md:hidden"
-          src="Public/svg/menu.svg"
-          alt="menu"
-        />
       </nav>
     </header>
   );

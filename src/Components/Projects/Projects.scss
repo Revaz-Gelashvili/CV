@@ -1,3 +1,23 @@
 section {
   background: linear-gradient(180deg, #0a0a0a 0%, #0a0024 100%);
 }
+
+.card {
+  width: 400px;
+  transition: 0.5s all;
+  .images {
+    height: 300px;
+  }
+}
+
+.card:hover {
+  scale: 1.1;
+}
+@media (max-width: 475px) {
+  .card {
+    width: 320px;
+    .images {
+      height: 220px;
+    }
+  }
+}
