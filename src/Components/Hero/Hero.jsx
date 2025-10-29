@@ -3,7 +3,7 @@ import "./Hero.scss";
 export default function Hero() {
   return (
     <div className="hero min-h-screen flex justify-center pt-10">
-      <div className="content w-lg md:w-7xl mx-10 lg:mx-50 h-auto flex flex-col gap-30 md:flex-row lg:justify-between items-center mt-20">
+      <div className="content w-lg md:w-screen md:px-20 lg:px-48  h-auto flex flex-col gap-30 md:flex-row lg:justify-between items-center mt-20">
         <div className="left-div h-[500px] md:h-[600px] w-full text-center md:text-left text-white flex flex-col justify-between">
           <h1 className="text-6xl md:text-7xl font-semibold">
             Front-End Developer & UI/UX Designer
