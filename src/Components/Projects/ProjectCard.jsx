@@ -3,7 +3,7 @@ import "./Projects.scss";
 export default function ProjectCard({ name, description, url, web }) {
   return (
     <div className="card">
-      <a href={web}>
+      <a href={web} target="_blank" rel="noopener noreferrer">
         <div
           className="images"
           style={{
