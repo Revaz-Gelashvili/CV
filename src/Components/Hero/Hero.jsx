@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import { useTranslation } from "react-i18next";
+import Profile from "../../assets/Images/profile-hero.png";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -20,8 +21,8 @@ export default function Hero() {
         <div className="right-div">
           <img
             className="w-lg md:w-lg lg:w-2xl"
-            src="Public/images/profile-hero.png"
-            alt=""
+            src={Profile}
+            alt="Profile Picture"
           />
         </div>
       </div>

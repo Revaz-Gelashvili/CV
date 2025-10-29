@@ -1,6 +1,10 @@
 import "./Projects.scss";
 import ProjectCard from "./ProjectCard";
 import { useTranslation } from "react-i18next";
+import FinalProject from "../../assets/Images/final-project.png";
+import FindFilm from "../../assets/Images/find-film.png";
+import Currency from "../../assets/Images/currency-exchange.png";
+import WeatherApp from "../../assets/Images/weatherApp.png";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -19,32 +23,26 @@ export default function Projects() {
           <ProjectCard
             name={t("projects.final-project.title")}
             description={t("projects.final-project.description")}
-            url="/Public/Images/final-project.png"
+            url={FinalProject}
             web="https://revaz-gelashvili.github.io/final-project/gravity-9.html"
           />
           <ProjectCard
             name={t("projects.find-film.title")}
             description={t("projects.find-film.description")}
-            url="/Public/Images/find-film.png"
+            url={FindFilm}
             web="https://revaz-gelashvili.github.io/Middle-Project/"
           />
           <ProjectCard
             name={t("projects.currency.title")}
             description={t("projects.currency.description")}
-            url="/Public/Images/currency-exchange.png"
+            url={Currency}
             web="https://revaz-gelashvili.github.io/react-lecture-2/"
           />
           <ProjectCard
             name={t("projects.weatherapp.title")}
             description={t("projects.weatherapp.description")}
-            url="/Public/Images/weatherApp.png"
+            url={WeatherApp}
             web="https://revaz-gelashvili.github.io/YourWeather/"
-          />
-          <ProjectCard
-            name={t("projects.final-project.title")}
-            description={t("projects.final-project.description")}
-            url="/Public/Images/final-project.png"
-            web="https://revaz-gelashvili.github.io/final-project/gravity-9.html"
           />
         </div>
       </div>

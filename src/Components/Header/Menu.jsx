@@ -1,6 +1,6 @@
 import "./Header.scss";
 import { useTranslation } from "react-i18next";
-
+import Close from "../../assets/svg/close.svg";
 import { Link } from "react-router-dom";
 
 export default function Menu({ isOpen, toggleSideBar }) {
@@ -13,7 +13,7 @@ export default function Menu({ isOpen, toggleSideBar }) {
     >
       <div>
         <img
-          src="Public/svg/close.svg"
+          src={Close}
           onClick={toggleSideBar}
           alt="close"
           className="w-10 cursor-pointer"

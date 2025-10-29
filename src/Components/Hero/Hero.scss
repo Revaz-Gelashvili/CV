@@ -2,5 +2,10 @@
   background: radial-gradient(50% 50% at 50% 50%, #0a0024 0%, #0a0a0a 100%);
   button {
     background: linear-gradient(90deg, #d6cbf4 0%, #a135ff 100%);
+    transition: 0.4s all;
+  }
+
+  button:hover {
+    scale: 1.1;
   }
 }
