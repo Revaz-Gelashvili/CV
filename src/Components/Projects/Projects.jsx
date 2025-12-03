@@ -13,8 +13,8 @@ export default function Projects() {
       className="min-h-screen flex items-center justify-center flex-col"
       id="projects"
     >
-      <div className="w-screen mt-30 mb-30 md:px-20 lg:px-48">
-        <div className="w-full text-center md:text-left">
+      <div className="w-screen mt-30 mb-30 md:px-10 lg:px-18">
+        <div className="w-full text-center">
           <h1 className="text-white text-5xl font-semibold">
             {t("projects.title")}
           </h1>

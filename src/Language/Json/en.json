@@ -35,5 +35,10 @@
 
   "skills": {
     "title": "My Skills"
+  },
+
+  "about": {
+    "title": "About Me",
+    "description": "I am a beginner front-end developer, actively engaged in developing and studying this craft. I like to do everything thoroughly. I believe that only new experiences provide fertile ground for development."
   }
 }

@@ -1,5 +1,10 @@
-nav {
-  .myName {
-    color: #d6cbf4;
+header {
+  -webkit-box-shadow: 4px 13px 22px 0px rgba(82, 0, 66, 0.2);
+  -moz-box-shadow: 4px 13px 22px 0px rgba(82, 0, 66, 0.2);
+  box-shadow: 4px 13px 22px 0px rgba(82, 0, 66, 0.2);
+  nav {
+    .myName {
+      color: #d6cbf4;
+    }
   }
 }
