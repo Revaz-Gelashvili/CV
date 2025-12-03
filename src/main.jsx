@@ -6,7 +6,7 @@ import "./styles/main.scss";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/CV">
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );
