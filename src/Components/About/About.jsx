@@ -7,6 +7,7 @@ import AbmeGitHub from "../../assets/svg/abme-github.svg";
 import AbmeLinkedIn from "../../assets/svg/abme-linkedin.svg";
 import AbmeTelegram from "../../assets/svg/abme-telegram.svg";
 import AbMeFacebook from "../../assets/svg/abme-facebook.svg";
+import Fiverr from "../../assets/svg/fiverr.svg";
 
 export default function About() {
   const { t } = useTranslation();
@@ -35,6 +36,13 @@ export default function About() {
           }}
         >
           <div className="flex gap-5 absolute bottom-7 sm:bottom-10  p-2">
+            <a
+              href="http://www.fiverr.com/s/1qBGZo9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Fiverr} alt="Fiverr" />
+            </a>
             <a
               href="https://github.com/Revaz-Gelashvili"
               target="_blank"
