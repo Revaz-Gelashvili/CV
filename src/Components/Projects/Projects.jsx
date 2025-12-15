@@ -5,6 +5,7 @@ import FinalProject from "../../assets/Images/final-project.png";
 import FindFilm from "../../assets/Images/find-film.png";
 import Currency from "../../assets/Images/currency-exchange.png";
 import WeatherApp from "../../assets/Images/weatherApp.png";
+import SaubariGE from "../../assets/Images/saubarige.png";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -43,6 +44,12 @@ export default function Projects() {
             description={t("projects.weatherapp.description")}
             url={WeatherApp}
             web="https://revaz-gelashvili.github.io/YourWeather/"
+          />
+          <ProjectCard
+            name={t("projects.saubari.title")}
+            description={t("projects.saubari.description")}
+            url={SaubariGE}
+            web="https://saubari.vercel.app/"
           />
         </div>
       </div>

@@ -30,6 +30,10 @@
     "weatherapp": {
       "title": "Weather App",
       "description": "Just Weather App"
+    },
+    "saubari": {
+      "title": "SaubariGE",
+      "description": "Anonymous chat for talking with strangers"
     }
   },
 

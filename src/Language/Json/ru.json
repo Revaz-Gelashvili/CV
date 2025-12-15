@@ -30,6 +30,10 @@
     "weatherapp": {
       "title": "Приложение погоды",
       "description": "Просто приложение погоды"
+    },
+    "saubari": {
+      "title": "SaubariGE",
+      "description": "Анонимный чат для общения с незнакомцами"
     }
   },
 
