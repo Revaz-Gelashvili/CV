@@ -49,7 +49,7 @@ export default function Projects() {
             name={t("projects.saubari.title")}
             description={t("projects.saubari.description")}
             url={SaubariGE}
-            web="https://saubari.vercel.app/"
+            web="https://www.saubari.ge/"
           />
         </div>
       </div>
