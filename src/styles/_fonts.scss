@@ -1,1 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300&family=Roboto:wght@100;300&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
 
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url("../../src/Fonts/bpg_nino_mtavruli_normal.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Georgian Font V2";
+  src: url("../assets/Fonts/LGVBebasNeue-Regular-73130894047.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+  unicode-range: U+10A0-10FF;
+}
+
+body.ka {
+  font-family: "Georgian Font V2", "Plus Jakarta Sans", sans-serif;
+}
+
+body.en {
+  font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+}
+
+body.ka {
+  font-family: "Georgian Font V2", "BPG Nino Mtavruli", sans-serif;
+}
+
+body.ru {
+  font-family: "Roboto", "Noto Sans", sans-serif;
+}

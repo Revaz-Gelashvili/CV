@@ -8,7 +8,7 @@ import Menu from "../../assets/svg/menu.svg";
 export default function Header({ toggleSideBar }) {
   const { t } = useTranslation();
   return (
-    <header className="w-full flex justify-center bg-neutral-950 text-white sticky top-0 z-50 h-25">
+    <header className="w-full flex justify-center items-center bg-neutral-950 text-white sticky top-0 z-50 h-25">
       <nav className="w-full max-w-screen-2xl h-25 flex items-center justify-between px-10">
         <div className="flex items-center gap-3 font-medium">
           <img className="w-[50px] h-[50px]" src={Avatar} alt="avatar" />
@@ -27,7 +27,7 @@ export default function Header({ toggleSideBar }) {
           </a>
         </ul>
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 items-center">
           <div>
             <p className="myName hidden lg:block text-xl lg:text-2xl font-medium">
               {t("header.position")}

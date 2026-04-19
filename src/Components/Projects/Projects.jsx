@@ -6,6 +6,7 @@ import FindFilm from "../../assets/Images/find-film.png";
 import Currency from "../../assets/Images/currency-exchange.png";
 import WeatherApp from "../../assets/Images/weatherApp.png";
 import SaubariGE from "../../assets/Images/saubarige.png";
+import Wishlist from "../../assets/Images/wishlist.jpg";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -50,6 +51,12 @@ export default function Projects() {
             description={t("projects.saubari.description")}
             url={SaubariGE}
             web="https://www.saubari.ge/"
+          />
+          <ProjectCard
+            name={t("projects.wishlist.title")}
+            description={t("projects.wishlist.description")}
+            url={Wishlist}
+            web="https://netflix-app-delta-green.vercel.app/"
           />
         </div>
       </div>

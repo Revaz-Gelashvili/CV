@@ -34,6 +34,10 @@
     "saubari": {
       "title": "SaubariGE",
       "description": "Anonymous chat for talking with strangers"
+    },
+    "wishlist": {
+      "title": "WishlistTV",
+      "description": "Find the movie you're looking for!"
     }
   },
 
@@ -43,6 +47,6 @@
 
   "about": {
     "title": "About Me",
-    "description": "I am a beginner front-end developer, actively engaged in developing and studying this craft. I like to do everything thoroughly. I believe that only new experiences provide fertile ground for development."
+    "description": "I am a junior front-end developer, actively engaged in developing and studying this craft. I like to do everything thoroughly. I believe that only new experiences provide fertile ground for development."
   }
 }

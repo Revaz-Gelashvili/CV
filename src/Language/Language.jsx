@@ -2,18 +2,13 @@ import { useEffect } from "react";
 import { useLanguage } from "./LanguageContext";
 
 const languages = ["en", "ru", "ka"];
-const fonts = {
-  en: "'Noto Sans', sans-serif",
-  ru: "'Nunito', sans-serif",
-  ka: "'Nato Sans', sans-serif",
-};
 
 export default function LanguageSwitcher() {
   const { language, changeLanguage } = useLanguage();
 
   useEffect(() => {
-    document.body.style.fontFamily =
-      fonts[language] || "'Noto Sans', sans-serif";
+    languages.forEach((lng) => document.body.classList.remove(lng));
+    document.body.classList.add(language);
   }, [language]);
 
   const handleClick = () => {
@@ -23,7 +18,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <button onClick={handleClick} className="border rounded w-7.5 text-2xl">
+    <button onClick={handleClick} className="border rounded w-7.5 text-2xl p-2">
       {language.toUpperCase()}
     </button>
   );
