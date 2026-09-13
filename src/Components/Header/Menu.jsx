@@ -22,13 +22,13 @@ export default function Menu({ isOpen, toggleSideBar }) {
 
       <div className="w-full h-full flex justify-center items-center pb-30">
         <ul className="p-4 flex text-center flex-col gap-10 text-white">
-          <Link to="/">
+          <a href="#skills">
             <li>{t("header.link1")}</li>
-          </Link>
-          <a href="#">
+          </a>
+          <a href="#projects">
             <li>{t("header.link2")}</li>
           </a>
-          <a href="#">
+          <a href="#about">
             <li>{t("header.link3")}</li>
           </a>
         </ul>
