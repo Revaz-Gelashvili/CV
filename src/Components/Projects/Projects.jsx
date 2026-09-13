@@ -7,7 +7,7 @@ import Currency from "../../assets/Images/currency-exchange.png";
 import WeatherApp from "../../assets/Images/weatherApp.png";
 import SaubariGE from "../../assets/Images/saubarige.png";
 import Wishlist from "../../assets/Images/wishlist.jpg";
-import Nestia from "../../assets/Images/Nestia.png";
+import Nestia from "../../assets/Images/nestia.png";
 
 export default function Projects() {
   const { t } = useTranslation();
