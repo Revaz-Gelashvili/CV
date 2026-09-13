@@ -7,6 +7,7 @@ import Currency from "../../assets/Images/currency-exchange.png";
 import WeatherApp from "../../assets/Images/weatherApp.png";
 import SaubariGE from "../../assets/Images/saubarige.png";
 import Wishlist from "../../assets/Images/wishlist.jpg";
+import Nestia from "../../assets/Images/Nestia.png";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -45,6 +46,12 @@ export default function Projects() {
             description={t("projects.weatherapp.description")}
             url={WeatherApp}
             web="https://revaz-gelashvili.github.io/YourWeather/"
+          />
+          <ProjectCard
+            name={t("projects.realEstateWebsite.title")}
+            description={t("projects.realEstateWebsite.description")}
+            url={Nestia}
+            web="https://nestia-eta.vercel.app"
           />
           <ProjectCard
             name={t("projects.saubari.title")}

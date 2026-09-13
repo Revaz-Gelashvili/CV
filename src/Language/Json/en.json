@@ -38,6 +38,10 @@
     "wishlist": {
       "title": "WishlistTV",
       "description": "Find the movie you're looking for!"
+    },
+    "realEstateWebsite": {
+      "title": "Real Estate Website",
+      "description": "A startup with a live website for renting or buying real estate in Georgia. Under development..."
     }
   },
 
